@@ -29,7 +29,7 @@ const CountryCard = ({flag,name,abbr})=>{
   
 };
 const Countries = ()=>{
-    const apiUrl = "https://xcountries-backend.azurewebsites.net/all34";
+    const apiUrl = "https://xcountries-backend.azurewebsites.net/all";
     const [countries, setCountries] = useState([]);
     useEffect(()=>{
         const fetchCountries = async ()=>{
